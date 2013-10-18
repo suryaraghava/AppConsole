@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+	<ModulePrefs title="App Console">
+		<Require feature="dynamic-height"/>
+	</ModulePrefs>
+	<Content type="html">
+		<![CDATA[
+<iframe height="400" width="100%" src="/AppConsole/newcvp.jsp">no iframe support found</iframe>
+		]]>
+	</Content>
+</Module>

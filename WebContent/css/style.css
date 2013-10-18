@@ -1,0 +1,85 @@
+body {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+}
+
+p, h3, div  {
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+}
+
+table.appList {
+	border: 3px solid;
+	border-radius: 5px;
+	padding: 5px;
+	float:left;
+	background: #aaaaff;
+}
+
+tr {
+
+}
+
+tr.app {
+	width: 400px;
+}
+
+tr.buttons {
+
+}
+
+tr.header {
+
+}
+
+td {
+	margin: 10px;
+}
+
+td.checkbox {
+	text-align:center;
+} 
+
+td.appName {
+	margin-right: 20px;
+}
+
+td.appDesc {
+	display: inline;
+}
+
+div.buttonRow {
+	float:right;
+}
+
+input {
+	border-radius: 3px;
+}
+
+input.checkbox {
+	color:blue;
+	background:blue;
+}
+
+input.button {
+	border: 2px solid;
+	border-color: black;
+	color: #000000;
+	background: #ffff44;
+}
+
+input.button:hover {
+	color: #ffff44;
+	background: #000000;
+}
+
+input.button:active {
+	color: #0000ff;
+	background: #ff0000;
+}
+#errorMsg{
+	text-align: center;
+	color: red;
+	margin: 20px;
+}
